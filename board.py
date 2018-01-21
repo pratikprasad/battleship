@@ -1,18 +1,42 @@
 from grid import Grid, Point
 from ship import Fleet, Ship
 
+STRUCK_SHIP = "STRUCK_SHIP"
 STRIKE = "STRIKE"
 SHIP = "SHIP"
 NONE = "NONE"
 
-class ShipBoard(object):
+class PrintableBoard(object):
+    def __repr__(self):
+        out = "   A  B  C  D  E  F  G  H  I  J \n"
+        for i, point in enumerate(Grid.IterAllPoints()):
+            if (i) % 10 == 0:
+                out += str((i/10)+1)
+                if (i/10 + 1) != 10:
+                    out += " "
+            itemType = self.GetPositionType(point)
+            if itemType == STRUCK_SHIP:
+                out += " H "
+            elif itemType == STRIKE:
+                out += " X "
+            elif itemType == SHIP:
+                out += " O "
+            else:
+                out += " . "
+
+            if (i+1) % 10 == 0:
+                out += "\n"
+
+        return out
+
+class ShipBoard(PrintableBoard):
     """A board to track a fleet of ships"""
 
     def __init__(self, fleet):
         super(ShipBoard, self).__init__()
         self.fleet = fleet
         self.grid = Grid()
-        self.receivedStrikes = set()
+        self.recordedStrikes = set()
 
         if type(fleet) is not Fleet:
             raise Exception("Expected a Fleet of ships, and instead got: ", type(fleet))
@@ -27,6 +51,15 @@ class ShipBoard(object):
             if not ok:
                 raise Exception("Unable to place ship at", x, y, ". Grid contains", self.grid.Get(x, y))
 
+    """True iff we've received a strike for every ship in the fleet.
+    """
+    def IsFleetSunk(self):
+        for ship in self.fleet:
+            for point in ship:
+                if point not in self.recordedStrikes:
+                    return False
+        return True
+
     """ Receive a strike at the given coordinates:
     Args:
         x - a valid x coordinate
@@ -34,48 +67,42 @@ class ShipBoard(object):
     Returns:
         True iff the point corresponds to a hit ship.
     """
-    def ReceiveStrike(self, x, y):
+    def RecordStrike(self, x, y):
         strike = Point(x, y)
-        self.receivedStrikes.add(strike)
+        self.recordedStrikes.add(strike)
 
         value = self.grid.Get(x, y)
-        return value != None
+        return (value is not None)
 
-    """True iff we've received a strike for every ship in the fleet.
-    """
-    def IsFleetSunk(self):
-        for ship in self.fleet:
-            for point in ship:
-                if point not in self.receivedStrikes:
-                    return False
-        return True
 
     def GetPositionType(self, point):
-        if point in self.receivedStrikes:
-            return STRIKE
+        isStrike = point in self.recordedStrikes
         gridValue = self.grid.Get(point.x, point.y)
-        if type(gridValue) == Ship:
+        isShip =  type(gridValue) == Ship
+
+        if isStrike and isShip:
+            return STRUCK_SHIP
+        elif isShip and not isStrike:
             return SHIP
-
-        return NONE
-
-
-def DisplayBoard(board):
-    out = "  A  B  C  D  E  F  G  H  I  J \n"
-    for i, point in enumerate(board.grid.IterAllPoints()):
-        if (i) % 10 == 0:
-            out += str((i/10)+1)
-            if (i/10 + 1) != 10:
-                out += " "
-        itemType = board.GetPositionType(point)
-        if itemType == STRIKE:
-            out += " X "
-        elif itemType == SHIP:
-            out += " O "
+        elif not isShip and isStrike:
+            return STRIKE
         else:
-            out += " . "
+            return NONE
 
-        if (i+1) % 10 == 0:
-            out += "\n"
+class StrikeBoard(PrintableBoard):
+    def __init__(self):
+        self.recordedStrikes = dict()
 
-    return out
+    def RecordStrike(self, x, y, isHit):
+        point = Point(x, y)
+        self.recordedStrikes[point] = isHit
+
+    def GetPositionType(self, point):
+        if point in self.recordedStrikes:
+            if self.recordedStrikes[point]:
+                return STRUCK_SHIP
+            else:
+                return STRIKE
+        else:
+            return NONE
+

@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f2a5a85-6540-4f80-ba34-b2ef82dd46a9" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="battleship" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="scratch_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contains</find>
+      <find>unable</find>
+      <find>iterallpo</find>
+      <find>ship</find>
+      <find>ship</find>
+      <find>ship</find>
+      <find>point</find>
+      <find>record</find>
+      <find>get</find>
+      <find>repr</find>
+      <find>printa</find>
+      <find>print</find>
+      <find>slee</find>
+      <find>sleejkj</find>
+      <find>remove</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_fleet.py" />
+        <option value="$PROJECT_DIR$/ship.py" />
+        <option value="$PROJECT_DIR$/test_grid.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/test_displayBoard.py" />
+        <option value="$PROJECT_DIR$/board.py" />
+        <option value="$PROJECT_DIR$/grid.py" />
+        <option value="$PROJECT_DIR$/battleship.py" />
+        <option value="$PROJECT_DIR$/player.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 (/usr/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="board&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="battleship" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="battleship" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f2a5a85-6540-4f80-ba34-b2ef82dd46a9" name="Default" comment="" />
+      <created>1515362372767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515362372767</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6698002" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <marker date="1515973713000" expanded="true" signature="0:57" ph="import ..." />
+            <marker date="1515973713000" expanded="true" signature="163:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="187:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="295:788" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="325:430" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2157" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="918:1237" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1267:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1294:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1507:1579" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="1606:1776" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1638:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1669:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1782:1979" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="2013:2136" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2013:2155" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2195:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2602:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2626:2664" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2706:2778" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2817:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2859:2986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <marker date="1515413765000" expanded="true" signature="0:63" ph="import ..." />
+            <marker date="1515413765000" expanded="true" signature="121:1255" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="206:1136" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="634:836" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1160:1192" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1217:1255" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1277:1642" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1382:1580" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1605:1642" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <marker date="1515978582000" expanded="true" signature="96:2969" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="101:223" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="356:1107" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="425:528" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="580:683" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="776:907" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="954:1087" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1151:1271" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1192:1271" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1311:1354" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1394:1437" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1507:1741" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1766:1831" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1866:1900" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1906:2235" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="2267:2464" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="2470:2699" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="2724:2901" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="2934:2969" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <marker date="1515413765000" expanded="false" signature="0:45" ph="import ..." />
+            <marker date="1515413765000" expanded="true" signature="81:1243" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="81:1291" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="119:289" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="163:247" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="325:910" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="940:1056" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1086:1243" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1515371572000" expanded="true" signature="0:93" ph="import ..." />
+            <marker date="1515371572000" expanded="true" signature="106:375" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <marker date="1515413765000" expanded="true" signature="0:63" ph="import ..." />
+            <marker date="1515413765000" expanded="true" signature="121:1255" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="206:1136" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="634:836" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1160:1192" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1217:1255" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1277:1642" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1382:1580" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1605:1642" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <marker date="1515978582000" expanded="true" signature="96:2969" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="101:223" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="356:1107" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="425:528" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="580:683" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="776:907" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="954:1087" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1151:1271" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1192:1271" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1311:1354" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1394:1437" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1507:1741" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1766:1831" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1866:1900" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1906:2235" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="2267:2464" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="2470:2699" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="2724:2901" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="2934:2969" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <marker date="1515413765000" expanded="false" signature="0:45" ph="import ..." />
+            <marker date="1515413765000" expanded="true" signature="81:1243" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="81:1291" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="119:289" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="163:247" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="325:910" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="940:1056" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1086:1243" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <marker date="1515371572000" expanded="true" signature="0:93" ph="import ..." />
+            <marker date="1515371572000" expanded="true" signature="106:375" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <marker date="1515973713000" expanded="true" signature="0:57" ph="import ..." />
+            <marker date="1515973713000" expanded="true" signature="163:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="187:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="295:788" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="325:430" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2157" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="918:1237" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1267:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1294:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1507:1579" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="1606:1776" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1638:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1669:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1782:1979" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="2013:2136" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2013:2155" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2195:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2602:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2626:2664" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2706:2778" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2817:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2859:2986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_displayBoard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1515973713000" expanded="true" signature="0:57" ph="import ..." />
+            <marker date="1515973713000" expanded="true" signature="163:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="187:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="295:788" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="325:430" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2157" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="918:1237" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1267:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1294:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1507:1579" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="1606:1776" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1638:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1669:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1782:1979" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="2013:2136" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2013:2155" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2195:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2602:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2626:2664" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2706:2778" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2817:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2859:2986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_fleet.py" />
+    <entry file="file://$PROJECT_DIR$/test_ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1515371572000" expanded="true" signature="0:93" ph="import ..." />
+            <marker date="1515371572000" expanded="true" signature="106:375" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <marker date="1515413765000" expanded="false" signature="0:45" ph="import ..." />
+            <marker date="1515413765000" expanded="true" signature="81:1243" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="81:1291" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="119:289" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="163:247" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="325:910" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="940:1056" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1086:1243" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_displayBoard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <marker date="1515898208000" expanded="true" signature="0:109" ph="import ..." />
+            <marker date="1515898208000" expanded="true" signature="145:1964" ph="..." />
+            <marker date="1515898208000" expanded="true" signature="178:1964" ph="..." />
+            <marker date="1515898208000" expanded="true" signature="198:497" ph="..." />
+            <marker date="1515898208000" expanded="true" signature="554:1209" ph="&quot;...&quot;" />
+            <marker date="1515898208000" expanded="true" signature="1290:1945" ph="&quot;...&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1515413765000" expanded="true" signature="0:63" ph="import ..." />
+            <marker date="1515413765000" expanded="true" signature="121:1255" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="206:1136" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="634:836" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1160:1192" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1217:1255" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1277:1642" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1382:1580" ph="..." />
+            <marker date="1515413765000" expanded="true" signature="1605:1642" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <marker date="1515973713000" expanded="true" signature="0:57" ph="import ..." />
+            <marker date="1515973713000" expanded="true" signature="163:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="187:808" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="295:788" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="325:430" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2157" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="842:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="918:1237" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1267:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1294:1501" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1507:1579" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="1606:1776" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1638:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1669:1756" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="1782:1979" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515973713000" expanded="true" signature="2013:2136" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2013:2155" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2195:2566" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2602:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2626:2664" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2706:2778" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2817:3024" ph="..." />
+            <marker date="1515973713000" expanded="true" signature="2859:2986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <marker date="1515978582000" expanded="true" signature="96:2969" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="101:223" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="356:1107" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="425:528" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="580:683" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="776:907" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="954:1087" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1151:1271" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1192:1271" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1311:1354" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1394:1437" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1507:1741" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1766:1831" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1866:1900" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="1906:2235" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="2267:2464" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="2470:2699" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515978582000" expanded="true" signature="2724:2901" ph="..." />
+            <marker date="1515978582000" expanded="true" signature="2934:2969" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <marker date="1515979016000" expanded="true" signature="29:150" ph="import ..." />
+            <marker date="1515979016000" expanded="true" signature="29:151" ph="import ..." />
+            <marker date="1515979016000" expanded="true" signature="261:570" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="378:554" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="678:3175" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="720:912" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="720:1540" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="928:1124" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="1133:1223" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="1237:1445" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="1561:3175" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="1620:3175" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="1837:2574" ph="..." />
+            <marker date="1515979016000" expanded="true" signature="2592:3045" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <marker date="1515979396000" expanded="true" signature="0:72" ph="import ..." />
+            <marker date="1515979396000" expanded="true" signature="95:443" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="100:194" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515979396000" expanded="true" signature="221:234" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="240:306" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515979396000" expanded="true" signature="332:345" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="351:401" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515979396000" expanded="true" signature="430:443" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="472:1513" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="502:527" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="554:569" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="554:579" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="609:933" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="632:931" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="960:1513" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1107:1197" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1252:1339" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1398:1485" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1542:2507" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1572:1667" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1694:1719" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1749:2375" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1877:2349" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="1940:2349" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="2188:2310" ph="..." />
+            <marker date="1515979396000" expanded="true" signature="2402:2507" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7.10 (/usr/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Go 1.7.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>battleship</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

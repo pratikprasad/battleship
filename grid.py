@@ -10,6 +10,29 @@ class Grid(object):
     validYCoordinates = list("ABCDEFGHIJ")
 
     @staticmethod
+    def GetAdjacent(length, x, y):
+        out = []
+        # Above
+        if Grid.IsXValid(x-length):
+            above = tuple(Point(xpt, y) for xpt in range(x-length, x+1))
+            out.append(above)
+        # Below
+        if Grid.IsXValid(x+length):
+            below = tuple(Point(xpt, y) for xpt in range(x, x+length+1))
+            out.append(below)
+        # Left
+        ypos = Grid.validYCoordinates.index(y)
+        if (ypos-length) >= 0:
+            left = tuple(Point(x, Grid.validYCoordinates[pos]) for pos in range(ypos-length, ypos+1))
+            out.append(left)
+        # Right
+        if (ypos+length) <= 9:
+            right = tuple(Point(x, Grid.validYCoordinates[pos]) for pos in range(ypos, ypos+length+1))
+            out.append(right)
+
+        return out
+
+    @staticmethod
     def IterAllPoints():
         for x in Grid.validXCoordinates:
             for y in Grid.validYCoordinates:
@@ -67,6 +90,7 @@ class Grid(object):
         otherwise False
     """
     def Get(self, x, y):
+        Grid.RaiseExceptionForInvalidCoordinates(x, y)
         point = Point(x, y)
         if point not in self.store:
             return None
