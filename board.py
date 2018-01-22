@@ -7,6 +7,9 @@ SHIP = "SHIP"
 NONE = "NONE"
 
 class PrintableBoard(object):
+    def __str__(self):
+        return self.__repr__()
+
     def __repr__(self):
         out = "   A  B  C  D  E  F  G  H  I  J \n"
         for i, point in enumerate(Grid.IterAllPoints()):
@@ -78,7 +81,7 @@ class ShipBoard(PrintableBoard):
     def GetPositionType(self, point):
         isStrike = point in self.recordedStrikes
         gridValue = self.grid.Get(point.x, point.y)
-        isShip =  type(gridValue) == Ship
+        isShip = type(gridValue) == Ship
 
         if isStrike and isShip:
             return STRUCK_SHIP

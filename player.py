@@ -61,22 +61,24 @@ class RandomPlayer(Player):
     def PlayerName(self):
         return self.name
 
+    def findValidShip(self, availablePoints, length):
+        pt = random.choice(availablePoints)
+        ships = Grid.GetAdjacent(length, pt.x, pt.y)
+        ship = random.choice(ships)
+        if all(pt in availablePoints for pt in ship):
+            return ship
+        else:
+            return self.findValidShip(availablePoints, length)
+
     def StartingFleet(self):
         out = []
-        # Lengths of ships
         availablePoints = list(Grid.IterAllPoints())
-        for i in [1, 2, 3, 4]:
-            foundShip = False
-            while not foundShip:
-                pt = random.choice(availablePoints)
-                pts = Grid.GetAdjacent(i, pt.x, pt.y)
-                ship = random.choice(pts)
-                validShip = all(pt in availablePoints for pt in ship)
-                if validShip:
-                    foundShip = True
-                    for s in ship:
-                        availablePoints.remove(s)
-                out.append(Ship(ship))
+        for i in range(1,5):
+            validShip = self.findValidShip(availablePoints, i)
+            for pt in validShip:
+                availablePoints.remove(pt)
+            out.append(Ship(validShip))
+
         return Fleet(out)
 
     def NextStrike(self):

@@ -13,7 +13,7 @@ class TestDisplayBoard(TestCase):
             Ship((Point(1, "D"), Point(2, "D"), Point(3, "D"), Point(4, "D"), Point(5, "D"))),
         ])
         board = ShipBoard(f)
-        self.assertEqual("  A  B  C  D  E  F  G  H  I  J \n"
+        self.assertEqual("   A  B  C  D  E  F  G  H  I  J \n"
                          "1  O  O  O  O  .  .  .  .  .  . \n"
                          "2  O  O  O  O  .  .  .  .  .  . \n"
                          "3  .  O  O  O  .  .  .  .  .  . \n"
@@ -23,10 +23,10 @@ class TestDisplayBoard(TestCase):
                          "7  .  .  .  .  .  .  .  .  .  . \n"
                          "8  .  .  .  .  .  .  .  .  .  . \n"
                          "9  .  .  .  .  .  .  .  .  .  . \n"
-                         "10 .  .  .  .  .  .  .  .  .  . \n", board.__repr__())
+                         "10 .  .  .  .  .  .  .  .  .  . \n", board.__repr__(), board)
 
         board.RecordStrike(4, "G")
-        self.assertEqual("  A  B  C  D  E  F  G  H  I  J \n"
+        self.assertEqual("   A  B  C  D  E  F  G  H  I  J \n"
                          "1  O  O  O  O  .  .  .  .  .  . \n"
                          "2  O  O  O  O  .  .  .  .  .  . \n"
                          "3  .  O  O  O  .  .  .  .  .  . \n"
@@ -36,4 +36,4 @@ class TestDisplayBoard(TestCase):
                          "7  .  .  .  .  .  .  .  .  .  . \n"
                          "8  .  .  .  .  .  .  .  .  .  . \n"
                          "9  .  .  .  .  .  .  .  .  .  . \n"
-                         "10 .  .  .  .  .  .  .  .  .  . \n", board.__repr__())
+                         "10 .  .  .  .  .  .  .  .  .  . \n", board.__repr__(), board)
