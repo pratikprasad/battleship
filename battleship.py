@@ -43,9 +43,10 @@ class Game(object):
         except Exception as e:
             raise Exception("Error initializing player 2: ", e)
 
-    def Play(self):
+    def Play(self, delay):
         for i in range(2*len(list(Grid.IterAllPoints()))):
-            sleep(.52)
+            if delay:
+                sleep(delay)
             current = self.player1Context if i % 2 == 0 else self.player2Context
             other = self.player1Context if i % 2 == 1 else self.player2Context
 
@@ -64,11 +65,11 @@ class Game(object):
             try:
                 print arrangeBoards()
                 print "Make your move: ", current.player.PlayerName()
-                nextStrike = current.player.NextStrike()
+                nextStrike = current.player.NextStrike(current.strikeBoard.GetPositions())
                 isHit = other.shipBoard.RecordStrike(nextStrike.x, nextStrike.y)
                 current.strikeBoard.RecordStrike(nextStrike.x, nextStrike.y, isHit)
                 print arrangeBoards()
                 if other.shipBoard.IsFleetSunk():
-                    return current
+                    return current.player
             except Exception as e:
                 raise Exception("Error playing turn for", str(current.player.PlayerName()), e)
