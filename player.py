@@ -13,7 +13,7 @@ class Player(object):
 
     """ Return a Point where the next strike should be placed.
     """
-    def NextStrike(self):
+    def NextStrike(self, playedPoints):
         pass
 
     """ Return a fleet to start the game with.
@@ -36,7 +36,7 @@ class ManualPlayer(Player):
             Ship((Point(1, "D"), Point(2, "D"), Point(3, "D"), Point(4, "D"), Point(5, "D"))),
         ])
 
-    def NextStrike(self):
+    def NextStrike(self, playedPoints):
         rawInput = raw_input("Please enter an x, y ")
         rawX, rawY = (s.strip() for s in rawInput.split(','))
         if not rawX.isdigit():
@@ -81,7 +81,7 @@ class RandomPlayer(Player):
 
         return Fleet(out)
 
-    def NextStrike(self):
+    def NextStrike(self, playedPoints):
         pt = random.choice(self.availableMoves)
         self.availableMoves.remove(pt)
         return pt

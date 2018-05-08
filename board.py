@@ -17,7 +17,7 @@ class PrintableBoard(object):
                 out += str((i/10)+1)
                 if (i/10 + 1) != 10:
                     out += " "
-            itemType = self.GetPositionType(point)
+            itemType = self.getPositionType(point)
             if itemType == STRUCK_SHIP:
                 out += " H "
             elif itemType == STRIKE:
@@ -78,7 +78,7 @@ class ShipBoard(PrintableBoard):
         return (value is not None)
 
 
-    def GetPositionType(self, point):
+    def getPositionType(self, point):
         isStrike = point in self.recordedStrikes
         gridValue = self.grid.Get(point.x, point.y)
         isShip = type(gridValue) == Ship
@@ -100,7 +100,10 @@ class StrikeBoard(PrintableBoard):
         point = Point(x, y)
         self.recordedStrikes[point] = isHit
 
-    def GetPositionType(self, point):
+    def GetPositions(self):
+        return dict(self.recordedStrikes)
+
+    def getPositionType(self, point):
         if point in self.recordedStrikes:
             if self.recordedStrikes[point]:
                 return STRUCK_SHIP
